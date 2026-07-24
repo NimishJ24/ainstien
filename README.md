@@ -1,28 +1,61 @@
-﻿# AInstien
+﻿<p align="center">
+  <img src="assets/ainstien.png" alt="AInstien" width="760">
+</p>
 
-AInstien is a portable research companion for coding agents.
+<h1 align="center">AInstien</h1>
 
-Use it with Codex, Cursor, Claude, Antigravity/Gemini-style agents, or any agent that reads `AGENTS.md`. It helps you live through the research journey: from messy curiosity to source-backed research output.
+<p align="center">
+  <strong>A portable research companion for coding agents.</strong>
+</p>
 
-It is not a one-shot paper generator. It helps a researcher read deeply, discuss papers, notice patterns, incubate ideas, plan experiments, calibrate evidence, and decide when a project is ready to become a paper.
+<p align="center">
+  Move from messy curiosity to source-backed research output with Codex, Cursor, Claude, Antigravity, Gemini-style agents, or any agent that reads <code>AGENTS.md</code>.
+</p>
+
+<p align="center">
+  <a href="#install">Install</a> ·
+  <a href="#agent-support">Agent Support</a> ·
+  <a href="#research-flow">Research Flow</a> ·
+  <a href="#example-prompts">Examples</a>
+</p>
+
+---
 
 ## Why AInstien
 
-Most AI research workflows jump too quickly from topic to answer. AInstien keeps the actual research process alive:
+Most AI research workflows jump too quickly from topic to answer. AInstien keeps the real research process alive: reading deeply, discussing papers, preserving confusions, forming ideas, testing claims, auditing evidence, and writing only when the story is strong.
 
 ```text
 papers/discussion -> questions/confusions -> idea-bank -> claim-sheet -> experiment-plan -> experiment-log -> evidence-audit -> paper-readiness
 ```
 
-The core loop is recursive:
+AInstien is not a one-shot paper generator. It is a stateful research companion that helps a researcher build taste over many sessions.
+
+## Research Flow
 
 ```text
 CHOOSE -> READ -> THINK -> HYPOTHESIZE -> EXPERIMENT -> VALIDATE -> COMMUNICATE
 ```
 
+The loop is recursive. A real project may move through reading, discussion, idea incubation, question sharpening, experimentation, and validation many times before writing.
+
+## What It Does
+
+| Research moment | AInstien helps with |
+| --- | --- |
+| Starting a project | Creates a project-specific research state and next reading direction |
+| Reading papers | Extracts objective details and guides reflection without form-filling |
+| Discussing papers | Saves questions, clarified concepts, confusions, and ideas sparked |
+| Mapping a field | Organizes foundations, methods, evaluations, disagreements, and gaps |
+| Finding ideas | Captures hunches in an idea bank before judging them too early |
+| Sharpening claims | Tests whether ideas are surprising, fruitful, rigorous, and feasible |
+| Experimenting | Plans tests with baselines, controls, falsification criteria, and confounds |
+| Interpreting results | Calibrates claim breadth to evidence breadth and catches overclaiming |
+| Writing | Checks paper readiness and creates an outline only when the story exists |
+
 ## Agent Support
 
-AInstien ships the same core research workflow through multiple agent adapters:
+AInstien ships the same core research workflow through multiple agent adapters.
 
 | Agent or host | Entry file |
 | --- | --- |
@@ -38,21 +71,6 @@ The canonical source of behavior is always:
 ```text
 skills/ainstien-research/SKILL.md
 ```
-
-## What It Helps With
-
-- Start and maintain multiple research journeys in parallel
-- Keep separate project folders for NLP, mechanistic interpretability, RAG, benchmarks, or any other topic
-- Read papers, articles, notes, and documents actively without turning reading into form-filling
-- Build durable project-specific `research-state.md`, `reading-log.md`, and `discussion-notes.md` files
-- Map literature across foundations, methods, evaluations, disagreements, and gaps
-- Capture hunches and possible directions in `idea-bank.md`
-- Turn promising ideas into precise research questions and claims
-- Plan and log experiments against specific claims
-- Evaluate questions for surprise, fruitfulness, rigor, and feasibility
-- Calibrate evidence to claim breadth
-- Decide whether a project is ready for a paper, memo, literature review, or position piece
-- Frame AI/ML research as insight, tool, synthesis, or position work
 
 ## Multi-Project State
 
@@ -192,6 +210,7 @@ ainstien/
   AGENTS.md
   CLAUDE.md
   README.md
+  assets/ainstien.png
   gemini-extension.json
   package.json
   .agents/rules/ainstien-research.md
@@ -201,10 +220,11 @@ ainstien/
   skills/ainstien-research/
     SKILL.md
     agents/openai.yaml
+    assets/ainstien.png
     references/
     assets/templates/
 ```
 
 ## Status
 
-Early public draft. The skill is designed to be extended with more examples, real research states, and community templates.
+Early public draft. AInstien is designed to grow through real research journeys, examples, community templates, and agent-specific adapters.

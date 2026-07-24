@@ -1,34 +1,35 @@
 ﻿{
-  "name": "ainstien",
-  "version": "0.1.0",
-  "description": "Portable research companion skill for Codex, Cursor, Claude, Antigravity, and other coding agents.",
-  "private": false,
-  "license": "MIT",
-  "keywords": [
-    "ai-agent",
-    "codex-skill",
-    "cursor-rules",
-    "claude-plugin",
-    "antigravity",
-    "research",
-    "ai-research",
-    "mechanistic-interpretability",
-    "literature-review"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/ainstien.git"
-  },
-  "files": [
-    "skills/",
-    "AGENTS.md",
-    "CLAUDE.md",
-    ".cursor/",
-    ".agents/",
-    ".codex-plugin/",
-    ".claude-plugin/",
-    "gemini-extension.json",
-    "README.md",
-    "examples/"
-  ]
+    "name":  "ainstien",
+    "version":  "0.1.0",
+    "description":  "Portable research companion skill for Codex, Cursor, Claude, Antigravity, and other coding agents.",
+    "private":  false,
+    "license":  "MIT",
+    "keywords":  [
+                     "ai-agent",
+                     "codex-skill",
+                     "cursor-rules",
+                     "claude-plugin",
+                     "antigravity",
+                     "research",
+                     "ai-research",
+                     "mechanistic-interpretability",
+                     "literature-review"
+                 ],
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/YOUR_USERNAME/ainstien.git"
+                   },
+    "files":  [
+                  "skills/",
+                  "AGENTS.md",
+                  "CLAUDE.md",
+                  ".cursor/",
+                  ".agents/",
+                  ".codex-plugin/",
+                  ".claude-plugin/",
+                  "gemini-extension.json",
+                  "README.md",
+                  "examples/",
+                  "assets/"
+              ]
 }

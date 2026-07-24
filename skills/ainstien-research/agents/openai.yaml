@@ -1,4 +1,7 @@
-interface:
+﻿interface:
   display_name: "AInstien"
   short_description: "Research companion from curiosity to paper"
+  icon_small: "./assets/ainstien.png"
+  icon_large: "./assets/ainstien.png"
+  brand_color: "#111827"
   default_prompt: "Use $ainstien-research to start a research journey and maintain a source-backed research state."
