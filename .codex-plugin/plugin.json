@@ -1,0 +1,11 @@
+﻿{
+  "name": "ainstien",
+  "version": "0.1.0",
+  "display_name": "AInstien",
+  "description": "A stateful research companion skill for moving from curiosity to paper across multiple research journeys.",
+  "author": "AInstien contributors",
+  "license": "MIT",
+  "skills": "./skills",
+  "agents": "./.agents",
+  "repository": "https://github.com/YOUR_USERNAME/ainstien"
+}

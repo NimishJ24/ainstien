@@ -1,0 +1,70 @@
+﻿# Question Sharpening
+
+Use this guide when the user has a rough idea, hunch, topic, gap, or candidate research question.
+
+## Four Attributes
+
+Evaluate every serious research question on four attributes.
+
+### Surprising To Experts
+
+Ask:
+
+- Would a domain expert already know this?
+- Would an expert predict the result easily?
+- Is this only novel to the user, or novel to the field?
+- What literature review would disprove the novelty?
+
+### Fruitful
+
+Ask:
+
+- If true, what changes?
+- What downstream work could this enable?
+- Does it open new questions, methods, evaluations, or mental models?
+- Is the project more than a small improvement on an obscure benchmark?
+
+### Rigorous
+
+Ask:
+
+- What alternative explanations could explain the result?
+- What confounds must be ruled out?
+- What baselines, ablations, seeds, settings, or controls are needed?
+- What claim is actually supported by the available evidence?
+
+### Feasible
+
+Ask:
+
+- Can the user finish with available time, skills, compute, data, collaborators, and tools?
+- Which smaller claim is still useful?
+- Which ambitious claim requires evidence the user cannot gather?
+
+## Claim Sharpening
+
+Convert vague claims into precise claims.
+
+Weak:
+
+`RL improves reasoning in LLMs.`
+
+Sharper:
+
+`Under binary reward RLVR on benchmark family X, pass@1 improves while pass@k decreases, suggesting amplification of rewarded trajectories rather than broader exploration.`
+
+## Research Question Gate
+
+Before moving to experiments or writing, produce:
+
+- One-sentence claim
+- Why an expert might be surprised
+- Why the claim matters
+- What would falsify it
+- Evidence needed
+- Feasibility risks
+- Narrower fallback claim
+
+## Output
+
+Use the claim sheet template for serious candidate questions.

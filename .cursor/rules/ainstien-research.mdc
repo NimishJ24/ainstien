@@ -1,0 +1,16 @@
+﻿---
+description: AInstien research companion for stateful research journeys
+alwaysApply: false
+---
+
+# AInstien Research
+
+Use this rule when the user asks to start, continue, organize, understand, evaluate, experiment on, or write research.
+
+Read the canonical skill before acting:
+
+`skills/ainstien-research/SKILL.md`
+
+Follow its routing model. Keep separate projects under `research-states/<project-slug>/`, update the active research state, and create other artifacts only when the workflow calls for them.
+
+For long research sessions, end with selected journey slug, current stage, paper-readiness status, and next best research action.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AInstien"
+  short_description: "Research companion from curiosity to paper"
+  default_prompt: "Use $ainstien-research to start a research journey and maintain a source-backed research state."

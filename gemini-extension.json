@@ -1,0 +1,20 @@
+﻿{
+  "name": "ainstien",
+  "version": "0.1.0",
+  "displayName": "AInstien",
+  "description": "A portable research companion for coding agents: start journeys, read papers, discuss ideas, plan experiments, audit evidence, and prepare papers.",
+  "publisher": "AInstien contributors",
+  "repository": "https://github.com/YOUR_USERNAME/ainstien",
+  "rules": [
+    {
+      "path": ".agents/rules/ainstien-research.md",
+      "description": "AInstien stateful research companion instructions"
+    }
+  ],
+  "skills": [
+    {
+      "path": "skills/ainstien-research",
+      "description": "AInstien canonical research skill"
+    }
+  ]
+}

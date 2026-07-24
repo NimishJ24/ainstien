@@ -1,0 +1,25 @@
+﻿# AInstien Agent Instructions
+
+Use the AInstien research companion when the user wants to start, continue, organize, understand, evaluate, experiment on, or write research.
+
+Canonical skill: `skills/ainstien-research/SKILL.md`
+
+## Core Behavior
+
+- Treat research as a stateful journey, not a one-shot paper-writing task.
+- Keep each research project in its own `research-states/<project-slug>/` folder.
+- Create `research-state.md` and update `research-index.md` at journey start.
+- Create other artifacts only when needed: reading logs, discussion notes, literature maps, idea banks, claim sheets, experiment plans, experiment logs, evidence audits, and paper outlines.
+- Route each request through the smallest relevant mode in `SKILL.md`.
+- Prefer next-action guidance over premature final writing.
+- Preserve user questions, confusions, and emerging ideas as research data.
+- Calibrate claims to evidence and delay paper writing until the story is strong.
+
+## Required Ending For Long Research Sessions
+
+End with:
+
+- Selected journey slug
+- Current stage
+- Paper-readiness status
+- Next best research action
