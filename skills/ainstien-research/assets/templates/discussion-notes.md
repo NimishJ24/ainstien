@@ -1,4 +1,4 @@
-﻿# Discussion Notes
+# Discussion Notes
 
 ## Project
 

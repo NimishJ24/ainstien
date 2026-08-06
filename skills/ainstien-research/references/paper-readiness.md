@@ -1,4 +1,4 @@
-﻿# Paper Readiness
+# Paper Readiness
 
 Use this guide when the user wants to write a paper, report, literature review, or research post.
 

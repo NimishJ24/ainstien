@@ -1,4 +1,4 @@
-﻿# AInstien For Claude
+# AInstien For Claude
 
 AInstien is available in this repository as a portable research companion skill.
 

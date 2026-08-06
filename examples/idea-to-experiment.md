@@ -8,9 +8,10 @@ Use $ainstien-research. Continue mech-interp-circuits. This paper made me wonder
 
 Expected behavior:
 
-- Update `research-states/mech-interp-circuits/idea-bank.md`.
+- Preserve the user's original idea wording in `research-states/mech-interp-circuits/idea-bank.md`.
+- Search for the closest prior work, terminology, contrary findings, methods, datasets, and novelty threats.
 - Decide whether the idea is raw, promising, or ready to promote to a claim.
-- If promising, draft a precise candidate claim in `claim-sheet.md`.
+- If promising, propose a precise candidate claim, show its exact wording, and wait for confirmation before saving it in `claim-sheet.md`.
 - Suggest what evidence would support or falsify it.
 - Create or propose `experiment-plan.md` only when the idea is testable.
 - End with paper readiness and the next best action.

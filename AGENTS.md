@@ -13,6 +13,9 @@ Canonical skill: `skills/ainstien-research/SKILL.md`
 - Route each request through the smallest relevant mode in `SKILL.md`.
 - Prefer next-action guidance over premature final writing.
 - Preserve user questions, confusions, and emerging ideas as research data.
+- When the user brings a raw idea or question, search for prior work and field context before judging novelty unless the user asks not to browse.
+- Preserve the user's original wording and label agent paraphrases as unconfirmed.
+- Before saving a core curiosity, best research question, thesis, promoted claim, or project objective, show the exact final sentence and wait for user confirmation.
 - Calibrate claims to evidence and delay paper writing until the story is strong.
 
 ## Required Ending For Long Research Sessions

@@ -18,3 +18,5 @@ Follow the skill's mode routing for:
 - checking paper readiness
 
 Keep multiple projects separate under `research-states/<project-slug>/`.
+
+When the user brings a raw idea or question, search for related work before judging novelty unless they ask not to browse. Preserve their original wording. Label agent interpretations as unconfirmed, and wait for approval of the exact final sentence before saving any project-defining statement.

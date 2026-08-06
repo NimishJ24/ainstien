@@ -13,4 +13,6 @@ Read the canonical skill before acting:
 
 Follow its routing model. Keep separate projects under `research-states/<project-slug>/`, update the active research state, and create other artifacts only when the workflow calls for them.
 
+When the user brings a raw idea or question, search for related work before judging novelty unless they ask not to browse. Preserve their original wording. Label agent interpretations as unconfirmed, and wait for approval of the exact final sentence before saving any project-defining statement.
+
 For long research sessions, end with selected journey slug, current stage, paper-readiness status, and next best research action.

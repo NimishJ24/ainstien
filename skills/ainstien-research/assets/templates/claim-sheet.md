@@ -2,9 +2,15 @@
 
 ## Candidate Claim
 
+Wording status: unconfirmed | confirmed
+
 ## One-Sentence Thesis
 
+Wording status: unconfirmed | confirmed
+
 ## Research Question
+
+Wording status: unconfirmed | confirmed
 
 ## Why An Expert Might Be Surprised
 

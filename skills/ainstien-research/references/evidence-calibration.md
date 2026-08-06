@@ -1,4 +1,4 @@
-﻿# Evidence Calibration
+# Evidence Calibration
 
 Use this guide when the user has claims, experiments, results, observations, or conclusions.
 

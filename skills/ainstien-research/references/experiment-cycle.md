@@ -1,4 +1,4 @@
-﻿# Experiment Cycle
+# Experiment Cycle
 
 Use this guide when the user wants to plan, run, interpret, debug, or record experiments.
 

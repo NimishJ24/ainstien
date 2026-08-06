@@ -8,6 +8,12 @@
 
 ## Core Curiosity
 
+Status: unconfirmed | confirmed
+
+Exact user-confirmed wording:
+
+Unconfirmed working interpretation:
+
 ## Current Stage
 
 Choose one: exploration, reading, discussion, thinking, idea incubation, question sharpening, experiment planning, experimentation, validation, writing.
@@ -23,15 +29,21 @@ Choose one: exploration, reading, discussion, thinking, idea incubation, questio
 
 ## Candidate Ideas
 
-| Idea | Sparked By | Why It May Matter | Status |
-| --- | --- | --- | --- |
+| Original Wording | Unconfirmed Interpretation | Sparked By | Why It May Matter | Status |
+| --- | --- | --- | --- | --- |
 
 ## Candidate Claims
 
-| Claim | Why It May Be True | Why It May Matter | Status |
-| --- | --- | --- | --- |
+| Claim | Wording Status | Why It May Be True | Why It May Matter | Status |
+| --- | --- | --- | --- | --- |
 
 ## Best Research Question
+
+Status: unconfirmed | confirmed
+
+Exact user-confirmed wording:
+
+Unconfirmed working interpretation:
 
 ## Attribute Check
 

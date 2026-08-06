@@ -48,6 +48,8 @@ If the user says "continue my NLP work" and there are multiple NLP journeys, ask
 
 Help the user pick a domain they are genuinely curious about. Favor curiosity that can sustain many days or weeks of reading and thinking.
 
+When the user starts with a raw idea or question, run a brief literature reconnaissance before treating the framing as settled. Find the closest prior work, field vocabulary, and obvious novelty threats.
+
 Capture:
 
 - Project name and slug
@@ -89,6 +91,9 @@ When updating the research state:
 - Preserve useful prior context.
 - Mark uncertainty explicitly.
 - Separate facts from interpretations.
+- Preserve the user's original wording for raw ideas and questions.
+- Label agent paraphrases as unconfirmed interpretations.
+- Before saving or replacing core curiosity, best research question, one-sentence thesis, promoted candidate claim, or project objective, show the exact sentence and wait for user confirmation.
 - Keep stale claims visible until rejected or superseded.
 - Record the next best action.
 - Update the research index after meaningful stage, readiness, or next-action changes.

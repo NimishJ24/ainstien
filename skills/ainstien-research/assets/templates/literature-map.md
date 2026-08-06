@@ -1,4 +1,4 @@
-﻿# Literature Map
+# Literature Map
 
 ## Project
 

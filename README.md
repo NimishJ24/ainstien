@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img src="assets/ainstien.png" alt="AInstien" width="760">
 </p>
 

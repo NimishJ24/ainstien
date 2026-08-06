@@ -1,4 +1,4 @@
-﻿# Example: Start A Research Journey
+# Example: Start A Research Journey
 
 Prompt:
 

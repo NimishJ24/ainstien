@@ -1,4 +1,4 @@
-﻿# Example: Multiple Research Journeys
+# Example: Multiple Research Journeys
 
 Prompt:
 

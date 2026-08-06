@@ -2,6 +2,8 @@
 
 Use this guide when the user has a rough idea, hunch, topic, gap, or candidate research question.
 
+Before sharpening, search the relevant literature unless the user explicitly asks not to browse. Identify the field's terminology, closest prior work, existing answers, contrary evidence, and likely novelty threats. Do not evaluate surprise or novelty from memory alone when search is available.
+
 ## Four Attributes
 
 Evaluate every serious research question on four attributes.
@@ -64,6 +66,8 @@ Before moving to experiments or writing, produce:
 - Evidence needed
 - Feasibility risks
 - Narrower fallback claim
+
+Then present the exact proposed research question or one-sentence claim and ask the user to confirm it before saving it as the project's canonical question, thesis, or promoted claim. Keep earlier wording visible until the replacement is confirmed.
 
 ## Output
 

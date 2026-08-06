@@ -1,4 +1,4 @@
-﻿# Experiment Plan
+# Experiment Plan
 
 ## Project
 

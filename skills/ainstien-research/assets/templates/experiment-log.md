@@ -1,4 +1,4 @@
-﻿# Experiment Log
+# Experiment Log
 
 ## Project
 

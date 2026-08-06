@@ -1,4 +1,4 @@
-﻿# Reading Log
+# Reading Log
 
 Use this as a thinking scaffold. Fill objective fields from the paper when possible. Use reflective fields to guide the researcher, not to interrogate them.
 

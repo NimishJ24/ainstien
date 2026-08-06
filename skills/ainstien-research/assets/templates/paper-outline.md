@@ -1,4 +1,4 @@
-﻿# Paper Outline
+# Paper Outline
 
 ## Contribution Type
 

@@ -1,4 +1,4 @@
-﻿# Evidence Audit
+# Evidence Audit
 
 ## Claim
 

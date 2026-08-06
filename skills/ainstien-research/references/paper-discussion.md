@@ -1,4 +1,4 @@
-﻿# Paper Discussion
+# Paper Discussion
 
 Use this guide when the user is discussing, questioning, or trying to understand a paper, section, figure, method, proof, experiment, or result.
 

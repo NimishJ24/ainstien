@@ -1,4 +1,4 @@
-﻿# Research Index
+# Research Index
 
 Use this file to track multiple active research journeys.
 

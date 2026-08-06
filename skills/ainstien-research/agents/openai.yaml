@@ -1,4 +1,4 @@
-﻿interface:
+interface:
   display_name: "AInstien"
   short_description: "Research companion from curiosity to paper"
   icon_small: "./assets/ainstien.png"

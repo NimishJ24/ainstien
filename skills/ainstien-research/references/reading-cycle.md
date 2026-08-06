@@ -1,4 +1,4 @@
-﻿# Reading Cycle
+# Reading Cycle
 
 Use this guide when the user provides papers, articles, notes, PDFs, web links, or a domain to survey.
 

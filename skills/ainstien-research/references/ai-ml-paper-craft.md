@@ -1,4 +1,4 @@
-﻿# AI/ML Paper Craft
+# AI/ML Paper Craft
 
 Use this guide for AI/ML research papers, drafts, literature reviews, benchmarks, tools, methods, and position pieces.
 
