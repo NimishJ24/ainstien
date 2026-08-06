@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img src="assets/ainstien.png" alt="AInstien" width="760">
 </p>
 
@@ -15,6 +15,7 @@
 <p align="center">
   <a href="#install">Install</a> ·
   <a href="#agent-support">Agent Support</a> ·
+  <a href="#research-home">Research Home</a> ·
   <a href="#research-flow">Research Flow</a> ·
   <a href="#example-prompts">Examples</a>
 </p>
@@ -72,6 +73,20 @@ The canonical source of behavior is always:
 skills/ainstien-research/SKILL.md
 ```
 
+## Research Home
+
+The cloned AInstien repository is the tool source, not the user's research storage. On first use, AInstien looks for `research-states/research-index.md`. If none exists, it must ask the user to choose a persistent research home and verify write access before creating any state.
+
+Recommended separation:
+
+```text
+ainstien/       # public tool checkout
+my-research/    # private, long-lived research workspace
+  research-states/
+```
+
+AInstien never silently initializes in temporary folders, generated date-based Codex workspaces, or its own source checkout. A project keeps the same slug across months or years; dates belong inside logs and metadata.
+
 ## Multi-Project State
 
 AInstien keeps each research journey separate. These are possible journey artifacts; AInstien creates them when the workflow calls for them.
@@ -114,6 +129,8 @@ Copy the skill folder into your Codex skills directory:
 ```powershell
 Copy-Item -Recurse .\skills\ainstien-research $env:USERPROFILE\.codex\skills\
 ```
+
+Then open a separate, long-lived research workspace and invoke AInstien there. On first use it will ask where to initialize the research home if no existing index is found.
 
 Invoke it with:
 
@@ -191,6 +208,8 @@ Decide whether nlp-synthetic-data is paper-ready.
 
 ## Design Principles
 
+- The cloned skill repository and the user's private research home are separate.
+- Research state must live in a user-confirmed persistent location, never a silent temporary/date-based default.
 - Research is not paper production. Paper writing comes after discovery.
 - Reading should produce taste, not just summaries.
 - Reading-log fields are reflective lenses, not mandatory interrogation prompts.

@@ -15,13 +15,14 @@ Treat the paper as the final artifact, not the immediate default output. The pri
 
 Keep the research journey stateful:
 
-1. Start, select, or update a project-specific journey folder whenever the user begins or continues a research project.
-2. Route the request to the smallest relevant mode below.
-3. Research a raw idea or question before judging its novelty, unless the user explicitly asks not to search.
-4. Update the selected journey's non-canonical notes after each reading, discussion, idea, experiment, or writing session.
-5. Ask the user to approve the exact final sentence before saving or replacing a project-defining statement.
-6. Prefer next-action guidance over premature final writing.
-7. Challenge weak claims, shallow novelty, broad conclusions from narrow evidence, and paper-first thinking.
+1. Establish or reuse a user-confirmed stable research home before reading or writing research state.
+2. Start, select, or update a project-specific journey folder inside that research home.
+3. Route the request to the smallest relevant mode below.
+4. Research a raw idea or question before judging its novelty, unless the user explicitly asks not to search.
+5. Update the selected journey's non-canonical notes after each reading, discussion, idea, experiment, or writing session.
+6. Ask the user to approve the exact final sentence before saving or replacing a project-defining statement.
+7. Prefer next-action guidance over premature final writing.
+8. Challenge weak claims, shallow novelty, broad conclusions from narrow evidence, and paper-first thinking.
 
 Use this long arc as the backbone:
 
@@ -29,11 +30,23 @@ Use this long arc as the backbone:
 
 Expect loops. The user may cycle through reading, discussion, idea incubation, question sharpening, experiment planning, and evidence gathering many times before writing.
 
+## Research Home Gate
+
+Before reading or writing any research state, resolve a stable research home using `references/research-home.md`.
+
+- Reuse the current workspace only when it already contains `research-states/research-index.md`, or when the user explicitly confirms that the workspace is their persistent research home.
+- If no research home is established, ask the user which stable directory should contain `research-states/`. Do not create state before they answer.
+- Never initialize inside a temporary directory, a generated date-based Codex workspace such as a path containing `Codex/<YYYY-MM-DD>/`, or the cloned AInstien source repository unless the user explicitly overrides the warning.
+- Verify that the selected location exists or may be created, is writable, and is expected to persist across sessions. If access is blocked, ask the user to open that directory as the workspace or grant access.
+- Record the confirmed home in `research-states/research-index.md` and reuse it across sessions.
+- Use dates only inside logs and metadata. Never use a date as a project identity or create a new journey merely because the date changed.
+- Never silently fall back to the current working directory when the research home is unresolved.
+
 ## Multi-Project State
 
-Support multiple simultaneous research journeys. Never assume all research belongs in one generic `research-state.md` when the user has, implies, or may have multiple projects.
+Support multiple simultaneous research journeys inside the confirmed research home. Never assume all research belongs in one generic `research-state.md` when the user has, implies, or may have multiple projects.
 
-Use this convention for possible user-facing research artifacts:
+Use this convention relative to the confirmed research home:
 
 ```text
 research-states/
@@ -57,10 +70,11 @@ Maintain `research-states/research-index.md` when possible. It should list activ
 
 When starting a new journey:
 
-1. Create or propose a project slug.
-2. Create `research-states/<project-slug>/research-state.md` from `assets/templates/research-state.md`.
-3. Add the journey to `research-states/research-index.md` from `assets/templates/research-index.md` if no index exists.
-4. Create other journey artifacts only when needed; do not create empty files just for completeness unless the user asks for a full workspace.
+1. Pass the research-home gate.
+2. Create or propose a project slug.
+3. Create `research-states/<project-slug>/research-state.md` from `assets/templates/research-state.md`.
+4. Add the journey to `research-states/research-index.md` from `assets/templates/research-index.md` if no index exists.
+5. Create other journey artifacts only when needed; do not create empty files just for completeness unless the user asks for a full workspace.
 
 When continuing a journey:
 
@@ -71,6 +85,7 @@ When continuing a journey:
 
 ## Mode Routing
 
+- **Initialize or locate research home**: Read `references/research-home.md` before any state operation when no confirmed home is visible.
 - **Start a journey**: Read `references/research-journey.md` and use `assets/templates/research-state.md` plus `assets/templates/research-index.md`.
 - **Read sources**: Read `references/reading-cycle.md` and use `assets/templates/reading-log.md`. Treat reading-log fields as reflective lenses, not a mandatory questionnaire. Fill what can be inferred and ask only targeted questions that improve the researcher's understanding or taste.
 - **Discuss or understand a paper**: Read `references/paper-discussion.md` and use `assets/templates/discussion-notes.md`.

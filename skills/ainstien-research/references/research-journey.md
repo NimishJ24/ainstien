@@ -12,7 +12,7 @@ The journey is recursive:
 
 ## Multi-Journey Setup
 
-Treat each research project as a separate journey. Use a project-specific folder so the user can run multiple projects in parallel without mixing state.
+Pass the research-home gate in `research-home.md` before creating or updating journey files. Treat each research project as a separate journey inside the confirmed home so the user can run multiple projects in parallel without mixing state.
 
 Recommended possible layout:
 

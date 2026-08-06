@@ -17,6 +17,8 @@ Follow the skill's mode routing for:
 - auditing evidence
 - checking paper readiness
 
-Keep multiple projects separate under `research-states/<project-slug>/`.
+Before any state operation, require a user-confirmed stable research home. If no `research-states/research-index.md` exists, ask where to initialize it and verify write access. Never silently initialize in a temporary/date-based Codex workspace or the cloned AInstien source repository.
+
+Keep multiple projects separate under `research-states/<project-slug>/` inside that confirmed home.
 
 When the user brings a raw idea or question, search for related work before judging novelty unless they ask not to browse. Preserve their original wording. Label agent interpretations as unconfirmed, and wait for approval of the exact final sentence before saving any project-defining statement.

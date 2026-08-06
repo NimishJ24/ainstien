@@ -1,4 +1,4 @@
-# Example: Start A Research Journey
+﻿# Example: Start A Research Journey
 
 Prompt:
 
@@ -8,6 +8,10 @@ Use $ainstien-research to start a research journey called nlp-synthetic-data abo
 
 Expected behavior:
 
+- Look for an existing `research-states/research-index.md`.
+- If no stable research home is established, ask the user where to initialize it and wait for their answer.
+- Reject temporary, date-based Codex workspaces and the cloned AInstien source repository as silent defaults.
+- Verify that the confirmed research home is writable before creating state.
 - Create or propose `research-states/nlp-synthetic-data/research-state.md`.
 - Add the journey to `research-states/research-index.md`.
 - Identify the current stage as exploration.

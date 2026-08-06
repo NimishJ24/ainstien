@@ -7,6 +7,8 @@ Canonical skill: `skills/ainstien-research/SKILL.md`
 ## Core Behavior
 
 - Treat research as a stateful journey, not a one-shot paper-writing task.
+- Before any state operation, require a user-confirmed stable research home. Never silently initialize in a temporary/date-based Codex workspace or the cloned AInstien source repository.
+- If no `research-states/research-index.md` exists, ask where to initialize the research home and verify that it is writable before proceeding.
 - Keep each research project in its own `research-states/<project-slug>/` folder.
 - Create `research-state.md` and update `research-index.md` at journey start.
 - Create other artifacts only when needed: reading logs, discussion notes, literature maps, idea banks, claim sheets, experiment plans, experiment logs, evidence audits, and paper outlines.

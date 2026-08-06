@@ -1,6 +1,14 @@
-# Research Index
+﻿# Research Index
 
 Use this file to track multiple active research journeys.
+
+## Research Home
+
+- Root: `.` or confirmed absolute path
+- Location type: workspace-relative | absolute
+- Confirmed by user:
+- Writable verification:
+- Initialized:
 
 | Project | Slug | Aliases | Domain | Current Stage | Paper Readiness | Last Updated | Next Best Action |
 | --- | --- | --- | --- | --- | --- | --- | --- |
